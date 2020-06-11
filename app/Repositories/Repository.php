@@ -4,9 +4,9 @@ namespace App\Repositories;
 
 abstract class Repository
 {
-    abstract public function model();
-
     protected $model;
+
+    abstract public function model();
 
     public function __construct()
     {
